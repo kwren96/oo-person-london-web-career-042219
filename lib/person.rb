@@ -38,6 +38,7 @@ class Person
     else 
       @hygiene = 0 
     end
+    @hygiene
   end
   
   def happy?
@@ -55,7 +56,6 @@ class Person
   
   def take_bath
     number = @hygiene += 4
-    
      hygiene=(number)
     return '♪ Rub-a-dub just relaxing in the tub ♫'
   end 
