@@ -55,9 +55,9 @@ class Person
   end
   
   def take_bath
-    number = @hygiene += 4
+    
     #binding.pry
-     number = hygiene=(number)
+     hygiene=(@hygiene += 4)
      @hygiene = number
     # binding.pry
     return '♪ Rub-a-dub just relaxing in the tub ♫'
