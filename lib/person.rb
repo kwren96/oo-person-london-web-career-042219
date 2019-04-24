@@ -69,9 +69,9 @@ class Person
   
   
   def call_friend(person)
-    
+    binding.pry
     person.happiness = @happiness +3
-    
+    binding.pry
   end 
   
   def start_conversation(person, topic)
