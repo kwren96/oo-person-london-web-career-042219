@@ -73,11 +73,11 @@ class Person
     
   end 
   
-  def start_conversation(person, :topic)
-    if :topic = 'politics'
+  def start_conversation(person, topic)
+    if topic = 'politics'
       person.happiness = @happiness - 2 
       return 'blah blah partisan blah lobbyist'
-    elsif :topic = 'weather'
+    elsif topic = 'weather'
       person.happiness = @happiness + 1
       return 'blah blah sun blah rain'
     else
