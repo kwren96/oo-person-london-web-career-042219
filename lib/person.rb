@@ -40,6 +40,17 @@ class Person
     end
   end
   
+  def happy?
+    if @happiness > 7 
+      true
+    else
+      false
+    end
+  end
+  
+  def clean?
+    
+  end
 end
 
 stella = Person.new("Stella")
