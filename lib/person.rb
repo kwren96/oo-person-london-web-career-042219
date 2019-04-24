@@ -13,6 +13,14 @@ class Person
   attr_accessor :bank_account
   attr_accessor :happiness
   
+  def happiness
+    @happiness
+  end
+  
+  def happiness=
+    
+  end
+  
 end
 
 stella = Person.new("Stella")
