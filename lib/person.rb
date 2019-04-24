@@ -69,7 +69,8 @@ class Person
   
   
   def call_friend(person)
-    self.happiness = @happiness +3
+    person.happiness = @happiness +3
+    binding.pry
   end 
   
   
