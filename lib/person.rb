@@ -23,6 +23,7 @@ class Person
       @happiness = 10
     else 
       @happiness = 0 
+    end
   end
   
   def hygiene
