@@ -55,20 +55,20 @@ class Person
   end
   
   def take_bath
-     self.hygiene = @hygiene + 4
+     self.hygiene += 4
     # binding.pry
     return '♪ Rub-a-dub just relaxing in the tub ♫'
   end 
   
   def work_out
-    self.hygiene = @hygiene - 3
-    self.happiness = @happiness + 2
+    self.hygiene -= 3
+    self.happiness += 2
     return '♪ another one bites the dust ♫'
   end 
   
   def call_friend(person)
-    person.happiness = person.happiness + 3
-    self.happiness = @happiness + 3
+    person.happiness += 3
+    self.happiness +=  3
   return   "Hi #{person.name}! It's #{self.name}. How are you?"
   end 
   
