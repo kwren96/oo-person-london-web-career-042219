@@ -10,6 +10,7 @@ class Person
   end
   
   attr_accessor :name
+  attr_accessor :bank_account
   
 end
 
