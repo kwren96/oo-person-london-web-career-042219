@@ -55,7 +55,7 @@ class Person
   end
   
   def take_bath
-    @hygiene += 4
+    number = @hygiene += 4
     #binding.pry
      number = hygiene=(number)
      @hygiene = number
