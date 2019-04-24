@@ -58,6 +58,7 @@ class Person
     number = @hygiene += 4
     #binding.pry
      number = hygiene=(number)
+     @hygiene = number
     # binding.pry
     return '♪ Rub-a-dub just relaxing in the tub ♫'
   end 
