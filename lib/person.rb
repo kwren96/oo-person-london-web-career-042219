@@ -68,7 +68,7 @@ class Person
   
   def call_friend(person)
     person.happiness += 3
-    self.happiness +=  3
+    self.happiness += 3
   return   "Hi #{person.name}! It's #{self.name}. How are you?"
   end 
   
