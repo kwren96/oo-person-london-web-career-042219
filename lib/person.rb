@@ -87,5 +87,3 @@ class Person
   end
   
 end
-
-stella = Person.new("Stella")
