@@ -66,12 +66,9 @@ class Person
     return '♪ another one bites the dust ♫'
   end 
   
-  
-  
   def call_friend(person)
-    binding.pry
     person.happiness = @happiness +3
-    binding.pry
+
   end 
   
   def start_conversation(person, topic)
