@@ -49,12 +49,9 @@ class Person
   end
   
   def clean?
-    if @hygiene > 7 
-      true
-    else
-      false
-    end
+    @hygiene > 7 ? true : false
   end
+  
 end
 
 stella = Person.new("Stella")
