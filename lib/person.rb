@@ -9,7 +9,7 @@ class Person
     @hygiene_points = 8
   end
   
-  attr_ :name
+  attr_reader :name
   attr_accessor :bank_account
   
 end
