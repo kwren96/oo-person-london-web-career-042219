@@ -74,7 +74,6 @@ class Person
   end 
   
   def start_conversation(person, topic)
-    binding.pry
     if topic = "politics"
       person.happiness = @happiness - 2 
       self.happiness = @happiness - 2
