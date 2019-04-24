@@ -60,6 +60,9 @@ class Person
     return '♪ Rub-a-dub just relaxing in the tub ♫'
   end 
   
+  def work_out
+    self.hygiene = @hygiene - 4
+  end 
   
   
 end
