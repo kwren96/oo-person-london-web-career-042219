@@ -30,13 +30,13 @@ class Person
     @hygiene
   end
   
-   def happiness=(number)
+   def hygiene=(number)
     if number < 11 && number >= 0
-      @happiness = number
+      @hygiene = number
     elsif number > 10 
-      @happiness = 10
+      @hygiene = 10
     else 
-      @happiness = 0 
+      @hygiene = 0 
     end
   end
   
