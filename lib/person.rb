@@ -8,3 +8,5 @@ class Person
   attr_accessor :name
   
 end
+
+stella = Person.new("Stella")
