@@ -77,14 +77,15 @@ class Person
     if topic = 'politics'
       self.happiness = @happiness - 2
       person.happiness = @happiness - 2 
-      'blah blah partisan blah lobbyist'
+      speech = 'blah blah partisan blah lobbyist'
     elsif topic = 'weather'
       self.happiness = @happiness + 1
       person.happiness = @happiness + 1
-      'blah blah sun blah rain'
+      speech = 'blah blah sun blah rain'
     else
-      'blah blah blah blah blah'
+      speech = 'blah blah blah blah blah'
     end
+    return speech
   end
   
 end
