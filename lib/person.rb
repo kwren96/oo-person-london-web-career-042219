@@ -78,9 +78,9 @@ class Person
       self.happiness = @happiness - 2
       person.happiness = @happiness - 2
     return 'blah blah partisan blah lobbyist'
-else
-  return 'blah blah blah blah blah'
-end
+    else
+    return 'blah blah blah blah blah'
+    end
   end
   
 end
