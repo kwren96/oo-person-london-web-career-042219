@@ -70,7 +70,7 @@ class Person
   
   def call_friend(person)
     #binding.pry
-    @happiness = person.happiness +3
+    person.happiness = +3
    # binding.pry
   end 
   
