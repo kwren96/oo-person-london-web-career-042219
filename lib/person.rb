@@ -55,7 +55,7 @@ class Person
   
   def take_bath
     @hygiene += 4
-    return '♪ Rub-a-dub just relaxingin the tub ♫'
+    return '♪ Rub-a-dub just relaxing in the tub ♫'
   end 
   
   
