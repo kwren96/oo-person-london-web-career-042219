@@ -75,14 +75,16 @@ class Person
   
   def start_conversation(person, topic)
     binding.pry
-    if topic = 'politics'
+    if topic = "politics"
       person.happiness = @happiness - 2 
-      return 'blah blah partisan blah lobbyist'
-    elsif topic = 'weather'
+      self.happiness = @happiness - 2
+      return "blah blah partisan blah lobbyist"
+    elsif topic = "weather"
       person.happiness = @happiness + 1
-      return 'blah blah sun blah rain'
+      self.happiness = @happiness + 1
+      return "blah blah sun blah rain"
     else
-      return 'blah blah blah blah blah'
+      return "blah blah blah blah blah"
     end
   end
   
