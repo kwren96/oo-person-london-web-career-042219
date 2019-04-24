@@ -41,11 +41,7 @@ class Person
   end
   
   def happy?
-    if @happiness > 7 
-      true
-    else
-      false
-    end
+    @happiness > 7 ? true : false
   end
   
   def clean?
