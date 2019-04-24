@@ -71,6 +71,7 @@ class Person
     person.happiness = @happiness +3
     binding.pry
     self.happiness = @happiness +3
+    binding.pry
   return   "Hi #{person}! It's #{self}. How are you?"
   end 
   
