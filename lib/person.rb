@@ -73,7 +73,7 @@ class Person
     
   end 
   
-  def start_conversation(person, topic)
+  def start_conversation(person, :topic)
     if topic = 'politics'
       person.happiness = @happiness - 2 
       return 'blah blah partisan blah lobbyist'
